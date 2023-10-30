@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color: rgb(188, 242, 224);
+    font-family: 'Segoe UI', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh ;
+    overflow: hidden;
+    margin: 0;
+}
+
+h1
+{
+    color: rgb(175, 134, 213);
+    font-size: 10em;
+    text-align: center;
+    opacity: 0.4;
+}
+
+form
+{
+   box-shadow:  0 4px 10px rgba(0, 0 , 0 ,0.1);
+   max-width: 100%;
+   width: 400px;
+}
+
+.input
+{
+    border: none;
+    color: #444;
+    font-size: 2rem;
+    padding: 1rem 2rem;
+    display: block;
+    width: 100%;
+}
+
+.input::placeholder
+{
+    color: rgb(16, 16, 15);
+}
+
+.input:focus
+{
+    color: rgb(157, 75, 234);
+}
+
+.todo
+{
+    background-color: antiquewhite;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.todo li
+{
+    border-top:1px solid  white ;
+    cursor: pointer;
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+}
+
+.todo li.completed
+{
+    color: rgb(82, 59, 30);
+    text-decoration: line-through;
+}
+small
+{
+    color: rgb(80, 108, 114);
+    margin-top: 3rem;
+    text-align: center;
+}
